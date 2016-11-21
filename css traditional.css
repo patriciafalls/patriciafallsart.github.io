@@ -1,0 +1,137 @@
+@font-face {
+
+		font-family:"Moon Flower Bold";
+	src:url(fontes/Moon%20Flower%20Bold.ttf) format("truetype");
+}
+@font-face {
+	 font-family:"Sunrise International Demo";
+	 src:url(fontes/Sunrise%20International%20Demo.otf);
+	}
+	
+	.up_nav{
+	background-color:#c98987;
+	position:relative;
+	vertical-align:top;
+	box-shadow: 0px 6px 25px 0px rgba(0,0,0,0.2);
+
+	z-index:6;
+	}
+	
+.up_nav a{
+	
+	 	text-decoration:none;
+		font-family:"Moon Flower Bold" , Verdana, Tahoma;
+		font-size: 80px;
+		color:white;
+
+
+}
+
+.up_nav a:hover{
+
+	 	text-decoration:underline;
+
+
+}
+
+ .up_nav ul {
+
+	 list-style-type: none;
+	 padding-left: 650px;
+	 }
+	 
+	 .up_nav li {
+		 
+display:inline-block;		 
+margin-top: 10px;
+margin-left: 20px;
+	}
+	
+	.aside img{
+		z-index:5;
+		top:-60px;
+		left:120px;
+		position:relative;
+		}
+
+
+
+.myBox {
+	
+	top:-500px;
+	border: none;
+	padding: 5px;
+	font: 9px sans-serif;
+    width: 1090px;
+    white-space: nowrap;
+	overflow-x: scroll;
+		overflow-y:hidden;
+	z-index:4;
+	position:relative;
+	float:right;
+}
+
+
+
+::-webkit-scrollbar {
+width: 10px;
+height: 10px;
+}
+
+
+
+::-webkit-scrollbar-thumb {background: #efe4b0;border-radius: 10px;}
+
+::-webkit-scrollbar-thumb:hover {
+background: #c98987;  
+}
+
+.art{
+	display:inline-block;
+	
+	}
+	
+	
+ #patricia {
+
+font-family:"Sunrise International Demo";
+
+font-size: 75px;
+
+color:#cb6259;
+
+position:relative;
+
+z-index:10;
+bottom: 430px;
+    left: 100px;
+}
+	 #cv{
+
+font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+
+font-size: 16px;
+
+color:#cb6259;
+
+position:relative;
+
+z-index:10;
+bottom: 520px;
+    left: 183px;
+}
+
+ #desc{
+
+font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+
+font-size: 13px;
+
+color:#cb6259;
+
+position:relative;
+
+z-index:10;
+bottom: 520px;
+    left: 165px;
+}

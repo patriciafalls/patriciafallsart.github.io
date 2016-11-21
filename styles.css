@@ -1,0 +1,596 @@
+
+	@font-face {
+
+		font-family:"Moon Flower Bold";
+	src:url(fontes/Moon%20Flower%20Bold.ttf) format("truetype");
+}
+
+@font-face {
+	 font-family:"Sunrise International Demo";
+	 src:url(fontes/Sunrise%20International%20Demo.otf);
+	}
+	
+	
+
+		
+		 
+	.up_nav{
+	background-color:#c98987;
+
+	position:relative;
+	vertical-align:top;
+	box-shadow: 0px 6px 25px 0px rgba(0,0,0,0.2);
+
+	z-index:6;
+	}
+	
+	
+
+	 
+	
+.up_nav a{
+	
+	 	text-decoration:none;
+		font-family:"Moon Flower Bold" , Verdana, Tahoma;
+		font-size: 80px;
+		color:white;
+
+
+}
+
+.up_nav a:hover{
+
+	 	  border-bottom: 2px solid white;
+		  
+
+
+}
+
+ .up_nav ul {
+
+	 list-style-type: none;
+	
+	 }
+	 
+	 .up_nav li {
+		 
+display:inline-block;		 
+margin-top: 10px;
+margin-left: 100px;
+	}
+	
+	.aside img{
+		z-index:5;
+		top:-60px;
+		left:120px;
+		position:relative;
+		}
+
+
+	.me{
+			
+			position:relative;
+		
+		}
+			.me p {
+			font-family: Arial;
+			font-size:12px;
+			 margin-left:550px;
+		width:400px;
+		}
+		.me img {
+			display:block;
+			margin:auto;
+			width:500px;
+		margin-top:-1050px;
+		}
+		.me a { 
+		display:block;
+		
+		text-align:center;
+		background-color:#f3ff9b;
+			 list-style-type: none;
+			 text-decoration:none;
+			 color:black;
+			 font-family:"Moon Flower Bold" , Verdana, Tahoma;
+			 font-size:30px;
+			 width:500px;
+			margin-left:540px;}
+
+			iframe{
+				
+				position:relative;
+	top:-900px;
+	left:550px;
+				
+				
+				
+			}
+			
+			
+			.video p{
+				position:relative;
+					top:-900px;
+					left:550px;
+				font-family:Arial;
+				font-size:20px;
+				color:pink;
+			}
+			
+.art{
+	
+	width:1200px;
+	position:relative;
+	top:-900px;
+	left:460px;
+	
+	
+}
+
+.art img{
+	
+	
+	width:250px;
+	height:100%;
+}
+
+
+	
+ #patricia {
+
+font-family:"Sunrise International Demo";
+
+font-size: 75px;
+
+color:#cb6259;
+
+position:relative;
+
+z-index:10;
+bottom: 430px;
+    left: 100px;
+}
+	 #cv{
+
+font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+
+font-size: 16px;
+
+color:#cb6259;
+
+position:relative;
+
+z-index:10;
+bottom: 520px;
+    left: 183px;
+}
+
+ #desc{
+
+font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+
+font-size: 13px;
+
+color:#cb6259;
+
+position:relative;
+
+z-index:10;
+bottom: 520px;
+    left: 165px;
+}
+.tira{
+	background-color:#c98987;
+	 width: 2000px;
+	 height:60px;
+	margin:auto;}
+
+
+
+	 
+	 
+
+
+.cv {
+	
+	top:-500px;
+    width: 1000px;
+	position:relative;
+	float:right;
+	margin-right:50px;
+	display:inline-block;
+}
+
+#page-wrap {
+ 	text-align: left;
+ 	width: 700px;
+	margin:auto;
+	background-color:white;
+	
+	position:fixed;
+
+	
+}
+																	
+											@media screen and (max-width: 350px){
+									
+										
+								
+			iframe{
+				
+					
+	width:300px;
+	height:200px;
+	position:relative;
+	top:-250px;
+	left:0px;
+			}
+			
+			
+			.video p{
+				position:relative;
+		
+				font-family:Arial;
+				font-size:20px;
+				color:pink;
+			}
+							
+
+ 
+.art img{
+
+size:100%;
+}
+.art{
+
+		
+	width:100px;
+	position:relative;
+	top:-250px;
+	left:0px;
+	
+	
+}
+
+
+
+ 	.up_nav {
+			width:100%;
+	background-color:#c98987;
+	box-shadow: 0px 6px 25px 0px rgba(0,0,0,0.2);
+
+	z-index:6;
+	
+	}
+	
+	
+
+	 
+	
+.up_nav a{
+	
+	 	text-decoration:none;
+		font-family:"Moon Flower Bold" , Verdana, Tahoma;
+		font-size: 35px;
+		color:white;
+		
+}
+
+
+ .up_nav ul {
+
+	
+	text-align:center;
+	margin:auto;
+ }
+	 
+	 .up_nav li {
+		display:block;
+margin:auto;
+
+	}
+ 
+ .aside{
+	position:relative;
+		display:block;
+ }
+ .aside img {
+	 	position:relative;
+		display:block;
+		z-index:5;
+		left:10px;
+		
+		width:200px;
+		margin:auto;
+	top:-30px;
+		
+		}
+		 .aside p, .aside a {
+			
+	 
+	 width:300px;
+
+		margin-right:auto;
+		color:#cb6259;
+		
+		 }
+		.me{
+			
+			position:relative;
+		
+		}
+			.me p {
+			font-family: Arial;
+			font-size:12px;
+			
+		margin:auto;
+		}
+		.me img {
+			display:block;
+			margin:auto;
+			width:200px;
+			margin-top:-360px;
+		}
+		.me a { display:block;
+		text-align:center;
+		background-color:#f3ff9b;
+			 list-style-type: none;
+			 text-decoration:none;
+			 color:black;
+			 font-family:"Moon Flower Bold" , Verdana, Tahoma;
+			 font-size:30px;
+			 width:100%;
+			 margin-left:0px;}
+
+		.tira{
+	  visibility:hidden; }
+
+		
+ #patricia {
+
+font-family:"Sunrise International Demo";
+
+font-size: 50px;
+
+color:#cb6259;
+
+position:relative;
+
+z-index:10;
+bottom: 265px;
+    left:12px;
+}
+	 #cv{
+
+font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+
+font-size: 16px;
+
+color:#cb6259;
+
+position:relative;
+
+z-index:10;
+bottom: 330px;
+    left:50px;
+}
+
+ #desc{
+
+font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+
+font-size: 13px;
+
+color:#cb6259;
+
+position:relative;
+
+z-index:10;
+bottom: 330px;
+    left: 35px;
+}
+
+#page-wrap {
+ 
+ 	width: 350px;
+	margin:auto;
+
+	
+ 
+ }
+ }
+ 
+ 
+													@media screen and (min-width:350px) and (max-width:900px){
+
+
+	iframe{
+				
+					
+	width:500px;
+	height:300px;
+	position:relative;
+	top:-450px;
+	left:0px;
+	margin:auto;
+			}
+			
+			
+			.video p{
+				position:relative;
+		
+				font-family:Arial;
+				font-size:20px;
+				color:pink;
+			}
+			
+			
+.art img{
+position:relative;
+size:100%;
+width:400px;	
+margin:auto;
+}
+.art{
+
+		
+	width:400px;
+	position:relative;
+	top:-350px;
+	left:0px;
+margin:auto;
+	
+	
+}
+
+
+ 	.up_nav {
+			width:100%;
+	background-color:#c98987;
+	box-shadow: 0px 6px 25px 0px rgba(0,0,0,0.2);
+
+	z-index:6;
+	
+	}
+	
+
+	
+.up_nav a{
+	
+	 	text-decoration:none;
+		font-family:"Moon Flower Bold" , Verdana, Tahoma;
+		font-size: 35px;
+		color:white;
+		
+}
+
+ .up_nav ul {
+
+	
+	text-align:center;
+	margin:auto;
+ }
+	 
+	 .up_nav li {
+		display:block;
+margin:auto;
+
+	}
+ 
+ .aside{
+	position:relative;
+	right:100px;
+	margin:auto;
+	top:25px;
+	
+	 
+ }
+ .aside p, .aside a {
+	 right:100px;
+
+			display:block;
+		margin-left:30px;
+		color:#cb6259;
+		
+		
+	 
+ }
+ 
+ .aside img {
+		z-index:5;
+		position:relative;
+		display:block;
+		width:300px;
+		margin:auto;
+		
+		}
+		
+		.me{
+			
+			
+			
+			margin:auto;
+		
+			
+		}
+			.me p  , .me a{
+			font-family: Arial;
+			font-size:12px;
+			margin:auto;
+			
+			 
+			
+		}
+		.me img {
+			display:block;
+			width:300px;
+			margin-top:-400px;
+			padding-left:20px;
+			
+		}
+		.me a { display:block;
+		text-align:center;
+		background-color:#f3ff9b;
+			 list-style-type: none;
+			 text-decoration:none;
+			 color:black;
+			 font-family:"Moon Flower Bold" , Verdana, Tahoma;
+			 font-size:30px;
+			 width:100%;
+			 margin-left:0px;
+			 top:1px;
+			}
+
+		.tira{
+	  visibility:hidden; }
+
+		
+		
+	
+		
+ #patricia  {
+
+font-family:"Sunrise International Demo";
+font-size: 70px;
+text-align:center;
+
+ 
+	
+}
+	 #cv{
+
+font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+font-size: 16px;
+text-align:center;
+margin-right:190px;
+bottom:500px;
+   
+	
+	
+}
+
+ #desc{
+
+
+text-align:center;
+
+font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+font-size: 13px;
+bottom: 510px;
+    margin-right:165px;
+}
+	
+	
+
+
+ 	
+	
+#page-wrap {
+ 
+ 	width: 350px;
+	margin:auto;
+
+	
+ 
+ }
+ }
